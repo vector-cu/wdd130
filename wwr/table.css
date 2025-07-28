@@ -1,0 +1,29 @@
+thead th {
+    background-color: black;
+    color: #fff;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+caption {
+    font-style: italic;
+    caption-side: bottom;
+    font-weight: 700;
+    padding: 10px;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid;
+   letter-spacing: 1px;
+   
+}
+thead, tfoot {
+    background-color: aqua;
+}
+th, td {
+    border: 1px solid;
+    padding: 8px;
+}
+tfoot th{
+    text-align: right;
+    font-weight: bold;
+}
