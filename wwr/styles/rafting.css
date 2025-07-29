@@ -313,3 +313,10 @@ body {
 .contact-form button:hover {
   background-color: var(--accent1-color);
 }
+
+.company-info h1 {
+  margin-top: 210px;
+  color: var(--primary-color);
+  font-size: 25px;
+  font-family: merriweather;
+}
