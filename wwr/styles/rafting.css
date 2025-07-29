@@ -319,4 +319,6 @@ body {
   color: var(--primary-color);
   font-size: 25px;
   font-family: merriweather;
+  width: fit-content;
+  margin-left: 300px;
 }
