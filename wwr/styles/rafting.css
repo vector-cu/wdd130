@@ -190,3 +190,126 @@ footer {
     border: none;
     
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0ecec;
+  color: #000;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Company Info */
+.company-info {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/* Image Section */
+.image-box {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+
+.image-box img {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  object-fit: cover;
+  width: auto;
+  height: 150px;
+  background-color: #ddd;
+  margin-bottom: 10px;
+}
+
+.image-box figcaption {
+    margin-top: 10px;
+    text-align: center;
+    color: var(--primary-color)
+}
+
+/* Contact Form */
+.contact-form {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.contact-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 16px;
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.contact-form .message-purpose {
+  margin-top: 15px;
+  color: var(--primary-color);
+
+}
+
+.contact-form .message-purpose label {
+  display: block;
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.contact-form .newsletter {
+  display: block;
+  margin: 19px 0;
+}
+
+.contact-form button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 15px 100px;
+  border-radius: 25px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: var(--accent1-color);
+}
