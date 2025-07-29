@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+QLD:wght@100..400&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 <body>
     <header>
@@ -12,25 +16,33 @@
 <main>
     <form>
         <fieldset>
-            <legend>Contant Informatiion</legend>
-            <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" name="fullname">
-            <label for="username">Email:</label>
-            <input type="email" id="useremail" name="useremail">
+            <legend>Contact Information</legend>
+            <div class="form-item">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+            <div class="form-item column2">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </div>
         </fieldset>
         <fieldset>
             <legend>Questions</legend>
-            <label for="browser">What is your favorite internet browser</label>
-            <select id="browser" name="browser">
-                <option value="chrome">Chrome</option>
-                <option value="firefox">Firefox</option>
-                <option value="safari">Safari</option>
-                <option value="edge">Edge</option>
-                <option value="=brave">Brave</option>
-                <option value="other">Other</option>
-            </select>
-            <label for="pet">Do you have a household pet?</label>
-            <input type="checkbox" id="pet" name="pet">
+            <div class="column1">
+                <label for="browser">What is your favorite internet browser</label>
+                <select id="browser" name="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="column1">
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
             <label for="feedback">List the places you have lived</label>
             <textarea id="feedback" name="feedback" rows="4" placeholder="Lagos Nigeria, Accra Ghana, Paris France"></textarea>
         </fieldset>
