@@ -6,13 +6,16 @@
     background-color: #247;
     color: #fff;
 }
-
+header, main, footer {
+   max-width: 1200px;
+   margin: 0 auto;
+}
 .callout img {
 	float: right;
     margin: 0 0 10px 15px;
     padding: 3px;
     background-color: #bbb;
-    width 15 0px
+    width: 15 0px;
     height: auto;
 }
 

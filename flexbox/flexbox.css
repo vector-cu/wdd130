@@ -6,6 +6,10 @@ header {
   background: rgb(50, 21, 219);
   height: 100px;
 }
+header, main, footer {
+   max-width: 1200px;
+   margin: 0 auto;
+}
 h1 {
   text-align: center;
   color: white;

@@ -4,6 +4,10 @@ thead th {
     text-align: justify;
     letter-spacing: 1px;
 }
+header, main, footer {
+   max-width: 1200px;
+   margin: 0 auto;
+}
 caption {
     font-style: italic;
     caption-side: bottom;
