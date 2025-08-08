@@ -414,3 +414,90 @@ body {
 .card p {
   color: var(--secondary-color)
 }
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.trip-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.trip-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.trip-card div {
+    padding: 1rem;
+}
+
+.trip-card h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+/* Table Styling */
+.trip-table-section {
+    padding: 2rem;
+}
+
+.trip-table-section table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.trip-table-section th, 
+.trip-table-section td {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.trip-table-section th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.trip-table-section tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.trip-table-section h1 {
+  margin-top: 88rem;
+  color: var(--primary-color);
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90rem;
+}
+.cta-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 40px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.cta-btn:hover {
+    background-color: var(--accent1-color);
+}
