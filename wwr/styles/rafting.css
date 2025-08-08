@@ -451,10 +451,12 @@ body {
 }
 
 .trip-table-section table {
-    width: 100%;
+    width: auto;
     border-collapse: collapse;
     background-color: white;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .trip-table-section th, 
@@ -477,10 +479,10 @@ body {
   margin-top: 88rem;
   color: var(--primary-color);
   text-align: center;
-  width: 50%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 90rem;
+  margin-top: 83rem;
 }
 .cta-btn {
     display: inline-block;
@@ -491,8 +493,7 @@ body {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    margin-top: 40px;
-    justify-content: center;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     
