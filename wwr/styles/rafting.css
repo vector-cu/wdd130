@@ -354,6 +354,7 @@ body {
     padding: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
+    border-radius: 10px;
     
    
 }
@@ -501,4 +502,21 @@ body {
 
 .cta-btn:hover {
     background-color: var(--accent1-color);
+}
+
+.newsletter-form button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 15px 100px;
+  border-radius: 25px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+  background-color: var(--accent2-color);
 }
