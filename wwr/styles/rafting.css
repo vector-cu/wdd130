@@ -334,7 +334,7 @@ body {
   border-radius: 10px;
 }
 .cta-button {
-  display: inline-block; /* Makes it behave like a block element, but respects space */
+  display: inline-block; 
   background-color: var(--accent2-color);
   color: #fff;
   padding: 15px 30px;
